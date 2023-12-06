@@ -1,4 +1,4 @@
-# Stanford Starter Theme
+# Stanford Faculty Subtheme
 
 8.x-X.X
 --------------------------------------------------------------------------------
