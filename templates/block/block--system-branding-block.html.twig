@@ -1,5 +1,9 @@
 {% extends "@basic/block/block--system-branding-block.html.twig" %}
 
-{# If the theme has a custom logo. Use that. We can do this by overriding the twig block in lockup.twig #}
 {% block cell1 %}
+  {% if line4 is not empty %}
+    <div class="su-lockup__wordmark-wrapper">
+      <span class="su-lockup__line4" {{ region_attributes.line4 }}>{{ line4 }}</span>
+    </div>
+  {% endif %}
 {% endblock %}
