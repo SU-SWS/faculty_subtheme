@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.su-masthead {
+  .su-lockup {
+    .su-lockup__cell1,
+    .su-lockup__cell2 {
+      border: 0;
+      padding: 0;
+      width: fit-content;
+    }
+
+    @include grid-media-min('sm') {
+      flex: auto;
+      max-width: 100%;
+
+      a {
+        max-width: 100%;
+        width: 100%;
+      }
+
+      .su-lockup__cell1,
+      .su-lockup__cell2 {
+        max-width: 80%;
+      }
+    }
+
+    @include grid-media-min('lg') {
+      .su-lockup__cell1,
+      .su-lockup__cell2 {
+        max-width: 100%;
+      }
+    }
+  }
+}
