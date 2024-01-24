@@ -1,11 +1,18 @@
 # [Faculty Subtheme](https://github.com/SU-SWS/faculty_subtheme)
+##### Version: 1.0.0
 
 Changelog: [Changelog.txt](CHANGELOG.txt)
 
 Description
 ---
 
-The Faculty Subtheme is a Stanford sub-theme that works with the Stanford Basic theme and was built by modifying the [Stanford Starter](https://github.com/SU-SWS/stanford_starter) Subtheme.
+The Faculty Subtheme is a Stanford sub-theme that works with the Stanford Basic theme and was built by modifying the [Stanford Starter](https://github.com/SU-SWS/stanford_starter) Subtheme. This theme includes the following features:
+
+- Search icon moved to main nav
+- Wordmark (Stanford University) removed from brand bar
+- Logo removed from masthead
+- More room in the masthead for site title
+- Lockup section removed from local footer
 
 Documentation
 ---
