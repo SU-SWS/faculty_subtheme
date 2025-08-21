@@ -1,51 +1,64 @@
-.su-link,
-.su-link--action,
-.su-link--external {
-  color: $su-color-digital-red;
-  font-weight: 600;
 
-  &:hover,
-  &:focus,
-  &:active {
-    color: $su-color-black;
+.main-region {
+  .su-link,
+  .su-link--action,
+  .su-link--external {
+    color: $su-color-digital-red;
+    font-weight: 600;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $su-color-black;
+    }
+
+    &::after {
+      background-color: $su-color-digital-red;
+    }
+
+    &.mailto {
+      svg {
+        fill: $su-color-digital-red;
+      }
+    }
   }
 
-  &::after {
-    background-color: $su-color-digital-red;
+  .su-button,
+  .su-button--big {
+    color: $su-color-white;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $su-color-white;
+    }
   }
 
-  &.mailto {
-    svg {
-      fill: $su-color-digital-red;
+  .su-button--secondary {
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: underline;
+    }
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    a[href] {
+      color: $su-color-digital-red;
     }
   }
 }
 
-.su-button,
-.su-button--big {
-  color: $su-color-white;
+.su-local-footer__action-links {
+  a {
+    color: $su-color-bright-blue;
 
-  &:hover,
-  &:focus,
-  &:active {
-    color: $su-color-white;
-  }
-}
-
-.su-button--secondary {
-  &:hover,
-  &:focus,
-  &:active {
-    text-decoration: underline;
-  }
-}
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-  a[href] {
-    color: $su-color-digital-red;
+    &::after {
+      background-color:  $su-color-bright-blue;
+    }
   }
 }
