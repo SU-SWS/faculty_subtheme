@@ -23,25 +23,6 @@
     }
   }
 
-  .su-button,
-  .su-button--big {
-    color: $su-color-white;
-
-    &:hover,
-    &:focus,
-    &:active {
-      color: $su-color-white;
-    }
-  }
-
-  .su-button--secondary {
-    &:hover,
-    &:focus,
-    &:active {
-      text-decoration: underline;
-    }
-  }
-
   h2,
   h3,
   h4,
