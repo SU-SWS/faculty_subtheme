@@ -1,50 +1,5 @@
 
 .main-region {
-  .su-link,
-  .su-link--action,
-  .su-link--external {
-    color: $su-color-digital-red;
-    font-weight: 600;
-
-    &:hover,
-    &:focus,
-    &:active {
-      color: $su-color-black;
-    }
-
-    &::after {
-      background-color: $su-color-digital-red;
-    }
-
-    &.mailto {
-      svg {
-        fill: $su-color-digital-red;
-      }
-    }
-  }
-
-  .su-link {
-    &.su-button {
-      color: $su-color-white;
-    }
-
-    &:hover,
-    &:focus,
-    &:active {
-      color: $su-color-white;
-    }
-
-    &::after {
-      background-color: $su-color-white;
-    }
-
-    &.mailto {
-      svg {
-        fill: $su-color-white;
-      }
-    }
-  }
-
   h2,
   h3,
   h4,
