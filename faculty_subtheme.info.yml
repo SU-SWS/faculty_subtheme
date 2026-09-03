@@ -2,7 +2,7 @@ name: Faculty Subtheme
 type: theme
 description: 'Faculty Subtheme.'
 package: Stanford
-version: 2.0.0
+version: 2.0.1
 core_version_requirement: ^11.2 || ^12
 base theme: stanford_basic
 libraries:
