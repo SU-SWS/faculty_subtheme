@@ -1,11 +1,4 @@
-{#
-/**
- * Page.html.twig from stanford_basic.
- */
-#}
-{%- extends "@stanford_basic/page.html.twig" -%}
-
-{# Change the brand bar. #}
-{%- if template_brand_bar is empty -%}
-  {%- set template_brand_bar = "@faculty_subtheme/components/brand-bar/brand-bar.html.twig" -%}
-{%- endif -%}
+{% extends "@stanford_basic/page.html.twig" %}
+{%- block block_brandbar -%}
+  {{ include("jumpstart_ui:brand_bar", {remove_logo: true}, with_context = false) }}
+{%- endblock -%}
