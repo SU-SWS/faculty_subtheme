@@ -1,0 +1,6 @@
+{% extends "@stanford_basic/page--front.html.twig" %}
+{%- block block_brandbar -%}
+  {% embed "jumpstart_ui:brand_bar" only %}
+    {% block logo %}{% endblock %}
+  {% endembed %}
+{%- endblock -%}
